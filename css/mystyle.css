@@ -1,0 +1,28 @@
+body{
+    background-color: silver;
+}
+
+header{
+    background-color: greenyellow;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+
+/* classes are here */
+.p1{
+    color: cyan; 
+    font-size: large; 
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-shadow:2px 2px 5px black;
+    float: right;
+}
+.nav1{
+    overflow: hidden;
+    padding: 10px;
+    background-color: lightslategray;
+    width: auto;
+    position: relative;
+}
