@@ -29,6 +29,14 @@ nav{
     float: right;
 }
 
+.logo-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 /******* HOVERS ARE HERE *******/
 
 .p1:hover{
