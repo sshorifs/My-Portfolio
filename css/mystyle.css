@@ -3,11 +3,20 @@ body{
 }
 
 header{
-    background-color: gold;
-    text-align: center;
-    height: 20px;
-    width: 100%;
-    color: Blue;
+    font-size: 1.3rem;
+    font-size-adjust: 0.58;
+	text-align: center;
+    height:9vh;
+    line-height: 8vh;
+	color: #000000;
+	background: #d52e3f;
+	font-family: 'Niconne', cursive;
+	font-weight: 700;
+    text-shadow: 
+            5px 5px 0px #efa032,
+            10px 10px 0px #017e7f, 
+            15px 15px 0px #c11a2b;
+    position: sticky;
 }
 
 nav{
@@ -28,6 +37,21 @@ nav{
     text-shadow:2px 2px 5px black;
     float: right;
 }
+/* This is link effect*/
+.p2{
+    text-align: center;
+    font-family: "Helvetica";
+    font-size:0.8rem;
+}
+
+.a1{
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+
+}
+/*...*/
 
 .logo-image img{
     width: 40px;
@@ -42,8 +66,9 @@ nav{
 .p1:hover{
     color: gold;
 }
-
+/*
 header:hover{
     color: gold;
     background-color: Blue;
 }
+*/
