@@ -3,14 +3,23 @@ body{
 }
 
 header{
-    background-color: greenyellow;
+    background-color: gold;
     text-align: center;
-    height: 30px;
+    height: 20px;
     width: 100%;
+    color: Blue;
+}
+
+nav{
+    overflow: hidden;
+    padding: 10px;
+    background-color: lightslategray;
+    width: auto;
+    position: relative;
 }
 
 
-/* classes are here */
+/******* CLASSES ARE HERE *******/
 .p1{
     color: cyan; 
     font-size: large; 
@@ -19,10 +28,14 @@ header{
     text-shadow:2px 2px 5px black;
     float: right;
 }
-.nav1{
-    overflow: hidden;
-    padding: 10px;
-    background-color: lightslategray;
-    width: auto;
-    position: relative;
+
+/******* HOVERS ARE HERE *******/
+
+.p1:hover{
+    color: gold;
+}
+
+header:hover{
+    color: gold;
+    background-color: Blue;
 }
