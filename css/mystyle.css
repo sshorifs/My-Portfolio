@@ -1,3 +1,8 @@
+
+
+
+
+
 body{
     background-color: #141E30;
 }
@@ -27,8 +32,16 @@ nav{
     position: relative;
 }
 
+a{
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+}
 
 /******* CLASSES ARE HERE *******/
+
+/* This is navbar effect */
 .p1{
     color: cyan; 
     font-size: large; 
@@ -37,22 +50,47 @@ nav{
     text-shadow:2px 2px 5px black;
     float: right;
 }
-/* This is link effect*/
-.p2{
-    text-align: center;
-    font-family: "Helvetica";
-    font-size:0.8rem;
+.p1:hover{
+    color: gold;
 }
-
-.a1{
-    color: #d52e3f;
-    text-decoration: none;
-    font-family: 'Niconne', cursive;
-    font-size: 1.2rem;
-
+/* Navbar Text animation effect */
+:root {
+    --shadow-color: #2980B9;
+    --shadow-color-light: #D1F2EB;
 }
-/*...*/
-
+.navtxt {
+    font-size: 20px;
+    font-family: "Archivo Black", "Archivo", sans-serif;
+    font-weight: normal;
+    display: block;
+    height: auto;
+    margin-top: 3px;
+}
+.logo-1 {
+    color: white;
+    animation: neon 3s infinite;
+}
+@keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+    50% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+    }
+    100% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+}
+.navleftfloat{
+    float: left;
+}
+/* This is navbar logo image effect */
 .logo-image img{
     width: 40px;
     height: 40px;
@@ -60,15 +98,13 @@ nav{
     overflow: hidden;
     margin-top: -6px;
 }
+/*******/
 
-/******* HOVERS ARE HERE *******/
+a{
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+}
 
-.p1:hover{
-    color: gold;
-}
-/*
-header:hover{
-    color: gold;
-    background-color: Blue;
-}
-*/
+
