@@ -28,7 +28,7 @@ nav{
     overflow: hidden;
     padding: 10px;
     background-color: lightslategray;
-    height: 25vh;
+    height: 5vh;
     width: auto;
     position: relative;
 }
@@ -37,7 +37,7 @@ a{
     color: #d52e3f;
     text-decoration: none;
     font-family: 'Niconne', cursive;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /******* CLASSES ARE HERE *******/
@@ -101,5 +101,41 @@ a{
 }
 /*******/
 
-
-
+/*This is navbar below styles*/
+.backimg1{
+    border: none;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background: #2851A6 url("http://i.stack.imgur.com/spmUM.gif") left repeat-x;
+    background-size: auto 85%;
+    background-position: bottom;
+    z-index: 1000;
+}
+.head1{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #F1C40F;
+    font-family: 'Lucida Handwriting';
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.p1{
+    color: #BFC9CA;
+    text-align: left;
+    font-size: 16px;
+    font-family: papyrus;
+    font-weight: bold;
+    padding-left:20%;
+    padding-bottom: 10%;
+}
+/********/
+/* This is for anchoring the link */
+a:hover{
+    color: yellow;
+    font-size: 115%;
+    font-style: italic;
+}
