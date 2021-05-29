@@ -28,6 +28,7 @@ nav{
     overflow: hidden;
     padding: 10px;
     background-color: lightslategray;
+    height: 25vh;
     width: auto;
     position: relative;
 }
@@ -42,7 +43,7 @@ a{
 /******* CLASSES ARE HERE *******/
 
 /* This is navbar effect */
-.p1{
+.n1{
     color: cyan; 
     font-size: large; 
     font-variant: small-caps;
@@ -50,16 +51,16 @@ a{
     text-shadow:2px 2px 5px black;
     float: right;
 }
-.p1:hover{
+.n1:hover{
     color: gold;
 }
-/* Navbar Text animation effect */
+/* Navbar Text animation effect MR Shorif*/
 :root {
     --shadow-color: #2980B9;
     --shadow-color-light: #D1F2EB;
 }
 .navtxt {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Niconne';
     font-weight: normal;
     display: block;
@@ -100,11 +101,5 @@ a{
 }
 /*******/
 
-a{
-    color: #d52e3f;
-    text-decoration: none;
-    font-family: 'Niconne', cursive;
-    font-size: 1.2rem;
-}
 
 
