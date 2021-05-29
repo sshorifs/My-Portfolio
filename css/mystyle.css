@@ -59,8 +59,8 @@ a{
     --shadow-color-light: #D1F2EB;
 }
 .navtxt {
-    font-size: 20px;
-    font-family: "Archivo Black", "Archivo", sans-serif;
+    font-size: 18px;
+    font-family: 'Niconne';
     font-weight: normal;
     display: block;
     height: auto;
