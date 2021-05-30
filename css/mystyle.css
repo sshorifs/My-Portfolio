@@ -35,6 +35,13 @@ a{
     font-size: 1rem;
 }
 
+footer{
+    background-color: #d52e3f;
+    font-family: 'Niconne', cursive;
+    padding: 5px;
+    text-align: center;
+    color:black;
+}
 
 /******* CLASSES ARE HERE *******/
 
