@@ -30,7 +30,7 @@ nav{
 }
 
 a{
-    color: yellow;
+    color: blue;
     text-decoration: none;
     font-family: 'Niconne', cursive;
     font-size: 1rem;
@@ -113,7 +113,6 @@ a{
 }
 .head2{
     font-family: fantasy;
-    margin-left: -10%;
     font-size: 24px;
     color: #17202A;
     padding-top: 10px;
@@ -164,7 +163,6 @@ a{
 .backimg2{
     background-color:#A3E4D7 ;
     position:relative;
-    margin-left: 10%;
     z-index: 1000;
 }
 /********/
