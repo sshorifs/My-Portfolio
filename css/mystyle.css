@@ -1,5 +1,6 @@
 body{
     background-color: #EAEDED;
+    position: relative;
 }
 
 header{
@@ -16,7 +17,7 @@ header{
             5px 5px 0px #efa032,
             10px 10px 0px #017e7f, 
             15px 15px 0px #c11a2b;
-    position: sticky;
+    position: relative;
 }
 
 nav{
@@ -154,7 +155,7 @@ a:hover{
     padding-bottom: 10px;
 }
 .img1{
-    height: 60vh;
-    width: 50vh;
+    height: 60%;
+    width: 50%;
     padding-left: 10%;
 }
