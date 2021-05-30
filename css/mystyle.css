@@ -1,10 +1,5 @@
-
-
-
-
-
 body{
-    background-color: #141E30;
+    background-color: #EAEDED;
 }
 
 header{
@@ -34,11 +29,12 @@ nav{
 }
 
 a{
-    color: #d52e3f;
+    color: yellow;
     text-decoration: none;
     font-family: 'Niconne', cursive;
     font-size: 1rem;
 }
+
 
 /******* CLASSES ARE HERE *******/
 
@@ -113,18 +109,19 @@ a{
     z-index: 1000;
 }
 .head1{
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     text-transform: uppercase;
     font-style: italic;
     color: #F1C40F;
     font-family: 'Lucida Handwriting';
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 20px;
+    padding-left: 10%;
     font-weight: bold;
 }
 .p1{
-    color: #BFC9CA;
+    color: #F2F3F4;
     text-align: left;
     font-size: 16px;
     font-family: papyrus;
@@ -133,9 +130,31 @@ a{
     padding-bottom: 10%;
 }
 /********/
+
 /* This is for anchoring the link */
 a:hover{
-    color: yellow;
+    color: #d52e3f;
     font-size: 115%;
-    font-style: italic;
+}
+/******/
+
+/*THis is for another background*/
+.backimg2{
+    background-color:#A3E4D7 ;
+    position:relative;
+    margin-left: 10%;
+    z-index: 1000;
+}
+.head2{
+    font-family: fantasy;
+    margin-left: -10%;
+    font-size: 24px;
+    color: #17202A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img1{
+    height: 60vh;
+    width: 50vh;
+    padding-left: 10%;
 }
