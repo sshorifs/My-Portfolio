@@ -130,11 +130,43 @@
         <div class="p1" style="padding-left: 10%;">
             Personal email: <a href="mailto:rajputro815@gmail.com">rajputro815@gmail.com</a>
         </div>
+        <div class="p1" style="padding-left: 10%;">
+            Instant message in messenger: <a href="m.me/mrshorifs">>>Click Here<<</a>
+        </div>
         <a class="logo-image" href="https://www.facebook.com/sshorifs">
             <img src="images/facebooklogo.png" alt="facebook" style="margin-left: 10%;">
 
         </a>
     </div>
+
+
+    
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "580290518782491");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <footer>
         Copyright © 2021 | You're welcome to visit again.
